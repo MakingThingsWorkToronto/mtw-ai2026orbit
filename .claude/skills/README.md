@@ -1,6 +1,6 @@
 # Local design skills
 
-Read [Design and content](../../discussion/requirements/DESIGN-AND-CONTENT.md) and its authoritative briefs. The user's selected styles and current scope override generic skill defaults.
+Read [Design and content](../../docs/design.md) and its authoritative briefs. The user's selected styles and current scope override generic skill defaults.
 
 | Skill | Use |
 | --- | --- |
