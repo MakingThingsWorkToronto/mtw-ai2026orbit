@@ -1,0 +1,12 @@
+dist/
+node_modules/
+.vercel/
+.codex/worktrees/
+.env
+*.log
+__pycache__/
+
+.vercel
+.env*
+/assets/blender/enterprise/enterprise-calibration-v4-review3.blend
+/assets/blender/enterprise/enterprise-calibration-v4-review3.blend.gz

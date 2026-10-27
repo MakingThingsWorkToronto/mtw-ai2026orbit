@@ -1,0 +1,1 @@
+Read [AGENTS.md](../AGENTS.md) and the [skill catalog](skills/README.md). These native discovery packages match the canonical .codex/skills copies, including bundled resources. Use the current project brief for scope and visual authority.

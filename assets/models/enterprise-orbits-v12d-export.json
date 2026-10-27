@@ -1,0 +1,851 @@
+{
+  "source": "C:\\Code\\MTWWebsite-final\\assets\\blender\\enterprise\\enterprise-orbits-v12c.blend",
+  "source_sha256": "2258433d3e472069950e2aa62ae8d80e95144912d25a97725d657b86d22a1bf3",
+  "export": "C:\\Code\\MTWWebsite-final\\assets\\models\\enterprise-orbits-v12d.json",
+  "blender": "5.2.1 LTS",
+  "assets": {
+    "ChatGPT agent code": {
+      "objects": 13,
+      "curvesMeshed": 11,
+      "triangles": 12336,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.04839557036757469
+        ]
+      }
+    },
+    "ChatGPT reader": {
+      "objects": 15,
+      "curvesMeshed": 11,
+      "triangles": 10516,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.05690000206232071
+        ]
+      }
+    },
+    "Claude agent code": {
+      "objects": 13,
+      "curvesMeshed": 11,
+      "triangles": 8820,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.04839497432112694
+        ]
+      }
+    },
+    "Claude operator": {
+      "objects": 12,
+      "curvesMeshed": 10,
+      "triangles": 7572,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.04839497432112694
+        ]
+      }
+    },
+    "Claude reader": {
+      "objects": 15,
+      "curvesMeshed": 11,
+      "triangles": 7000,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.05690000206232071
+        ]
+      }
+    },
+    "Codex operator": {
+      "objects": 12,
+      "curvesMeshed": 10,
+      "triangles": 11088,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.04839557036757469
+        ]
+      }
+    },
+    "Copilot agent code": {
+      "objects": 17,
+      "curvesMeshed": 15,
+      "triangles": 13480,
+      "batches": 7,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.052762001752853394
+        ]
+      }
+    },
+    "Copilot reader": {
+      "objects": 18,
+      "curvesMeshed": 14,
+      "triangles": 7340,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.05690000206232071
+        ]
+      }
+    },
+    "Environment stack": {
+      "objects": 27,
+      "curvesMeshed": 10,
+      "triangles": 16640,
+      "batches": 6,
+      "bounds": {
+        "min": [
+          -0.36773204803466797,
+          -0.3887999951839447,
+          -0.36773204803466797
+        ],
+        "max": [
+          0.36773204803466797,
+          0.3889999985694885,
+          0.36773204803466797
+        ]
+      }
+    },
+    "Excel workbook": {
+      "objects": 48,
+      "curvesMeshed": 9,
+      "triangles": 6224,
+      "batches": 14,
+      "bounds": {
+        "min": [
+          -0.3160000145435333,
+          -0.4156000018119812,
+          -0.028999999165534973
+        ],
+        "max": [
+          0.30274438858032227,
+          0.41073355078697205,
+          0.04963524639606476
+        ]
+      }
+    },
+    "Inference badge": {
+      "objects": 1,
+      "curvesMeshed": 0,
+      "triangles": 4200,
+      "batches": 1,
+      "bounds": {
+        "min": [
+          -0.46458348631858826,
+          -0.18747273087501526,
+          -0.1583787351846695
+        ],
+        "max": [
+          0.4426501989364624,
+          0.32570138573646545,
+          0.15845350921154022
+        ]
+      }
+    },
+    "Knowledge glass": {
+      "objects": 14,
+      "curvesMeshed": 10,
+      "triangles": 610,
+      "batches": 7,
+      "bounds": {
+        "min": [
+          -0.3028485178947449,
+          -0.4108485281467438,
+          -0.027692820876836777
+        ],
+        "max": [
+          0.3031166195869446,
+          0.4111003279685974,
+          0.07992607355117798
+        ]
+      }
+    },
+    "MCP gateway": {
+      "objects": 10,
+      "curvesMeshed": 7,
+      "triangles": 15636,
+      "batches": 7,
+      "bounds": {
+        "min": [
+          -0.6999996304512024,
+          -0.6999998092651367,
+          -0.699999988079071
+        ],
+        "max": [
+          0.6999998688697815,
+          0.699999988079071,
+          0.699999988079071
+        ]
+      }
+    },
+    "OneNote notebook": {
+      "objects": 42,
+      "curvesMeshed": 20,
+      "triangles": 9996,
+      "batches": 15,
+      "bounds": {
+        "min": [
+          -0.3509282171726227,
+          -0.42649999260902405,
+          -0.07692820578813553
+        ],
+        "max": [
+          0.3269999921321869,
+          0.41850000619888306,
+          0.07092820852994919
+        ]
+      }
+    },
+    "Person": {
+      "objects": 4,
+      "curvesMeshed": 1,
+      "triangles": 27332,
+      "batches": 3,
+      "bounds": {
+        "min": [
+          -0.2459787279367447,
+          -0.44975414872169495,
+          -0.09464375674724579
+        ],
+        "max": [
+          0.24980886280536652,
+          0.8199998140335083,
+          0.14027561247348785
+        ]
+      }
+    },
+    "Person alternate": {
+      "objects": 5,
+      "curvesMeshed": 1,
+      "triangles": 28056,
+      "batches": 3,
+      "bounds": {
+        "min": [
+          -0.20610356330871582,
+          -0.45035573840141296,
+          -0.11429629474878311
+        ],
+        "max": [
+          0.23543033003807068,
+          0.7719130516052246,
+          0.13496781885623932
+        ]
+      }
+    },
+    "PowerPoint presentation": {
+      "objects": 25,
+      "curvesMeshed": 7,
+      "triangles": 4172,
+      "batches": 13,
+      "bounds": {
+        "min": [
+          -0.3160000145435333,
+          -0.4156000018119812,
+          -0.028999999165534973
+        ],
+        "max": [
+          0.30274438858032227,
+          0.41073355078697205,
+          0.04963524639606476
+        ]
+      }
+    },
+    "Regional cloud": {
+      "objects": 5,
+      "curvesMeshed": 3,
+      "triangles": 25268,
+      "batches": 5,
+      "bounds": {
+        "min": [
+          -0.8855336904525757,
+          -0.46789950132369995,
+          -0.3729463517665863
+        ],
+        "max": [
+          0.9262105226516724,
+          0.6972106099128723,
+          0.40284478664398193
+        ]
+      }
+    },
+    "Seated operator": {
+      "objects": 9,
+      "curvesMeshed": 4,
+      "triangles": 28760,
+      "batches": 5,
+      "bounds": {
+        "min": [
+          -0.5244739651679993,
+          -0.28675577044487,
+          -0.17907410860061646
+        ],
+        "max": [
+          0.1510200798511505,
+          0.8203579783439636,
+          0.44183996319770813
+        ]
+      }
+    },
+    "SharePoint operator": {
+      "objects": 19,
+      "curvesMeshed": 12,
+      "triangles": 7170,
+      "batches": 8,
+      "bounds": {
+        "min": [
+          -0.5511491298675537,
+          -0.6511490941047668,
+          -0.023649519309401512
+        ],
+        "max": [
+          0.5511491298675537,
+          0.6511490941047668,
+          0.07699999958276749
+        ]
+      }
+    },
+    "Wiki file": {
+      "objects": 11,
+      "curvesMeshed": 9,
+      "triangles": 192,
+      "batches": 3,
+      "bounds": {
+        "min": [
+          -0.2464849352836609,
+          -0.3464849293231964,
+          -0.0044999998062849045
+        ],
+        "max": [
+          0.24695344269275665,
+          0.3469263017177582,
+          0.02368406392633915
+        ]
+      }
+    },
+    "Word document": {
+      "objects": 22,
+      "curvesMeshed": 8,
+      "triangles": 4140,
+      "batches": 11,
+      "bounds": {
+        "min": [
+          -0.3160000145435333,
+          -0.4156000018119812,
+          -0.028999999165534973
+        ],
+        "max": [
+          0.30274438858032227,
+          0.41073355078697205,
+          0.04963524639606476
+        ]
+      }
+    },
+    "anthropic mark": {
+      "objects": 1,
+      "curvesMeshed": 0,
+      "triangles": 2684,
+      "batches": 1,
+      "bounds": {
+        "min": [
+          -0.20000000298023224,
+          -0.19997388124465942,
+          -0.004682718776166439
+        ],
+        "max": [
+          0.20000000298023224,
+          0.19997389614582062,
+          0.004682718776166439
+        ]
+      }
+    },
+    "bedrock mark": {
+      "objects": 5,
+      "curvesMeshed": 5,
+      "triangles": 24196,
+      "batches": 1,
+      "bounds": {
+        "min": [
+          -0.26572275161743164,
+          -0.15676608681678772,
+          -0.004699999932199717
+        ],
+        "max": [
+          0.26570504903793335,
+          0.15676511824131012,
+          0.004699999932199717
+        ]
+      }
+    },
+    "foundry mark": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 3348,
+      "batches": 1,
+      "bounds": {
+        "min": [
+          -0.26570093631744385,
+          -0.25047409534454346,
+          -0.004699999932199717
+        ],
+        "max": [
+          0.26570096611976624,
+          0.25047409534454346,
+          0.004699999932199717
+        ]
+      }
+    },
+    "openai mark": {
+      "objects": 1,
+      "curvesMeshed": 0,
+      "triangles": 6200,
+      "batches": 1,
+      "bounds": {
+        "min": [
+          -0.20000000298023224,
+          -0.1981714814901352,
+          -0.004683542996644974
+        ],
+        "max": [
+          0.20000000298023224,
+          0.1981714814901352,
+          0.004683542996644974
+        ]
+      }
+    }
+  },
+  "routes": {
+    "agent-chatgpt-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "agent-claude-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "agent-copilot-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "anthropic-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "anthropic-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "anthropic-operator": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "bedrock-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "bedrock-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "bedrock-operator": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "client-distilled": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "client-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "development-to-test": {
+      "objects": 2,
+      "curvesMeshed": 2,
+      "triangles": 984,
+      "batches": 2,
+      "filaments": 1
+    },
+    "devops-distilled": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "devops-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "distil-0": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "distil-1": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "distil-2": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "distil-3": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "distil-4": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "foundry-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "foundry-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "foundry-operator": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "human-devops-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "human-executives-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "human-individual-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "human-marketing-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "human-sales-read": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "input-client": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "input-devops": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "input-legal": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "input-project": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "knowledge-0-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "knowledge-1-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "knowledge-2-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "knowledge-3-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "knowledge-4-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "legal-distilled": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "legal-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "mcp-enterprise": {
+      "objects": 5,
+      "curvesMeshed": 5,
+      "triangles": 4800,
+      "batches": 2,
+      "filaments": 5
+    },
+    "openai-brain": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "openai-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "openai-operator": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "production-to-development": {
+      "objects": 2,
+      "curvesMeshed": 2,
+      "triangles": 984,
+      "batches": 2,
+      "filaments": 1
+    },
+    "project-distilled": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "project-mcp": {
+      "objects": 3,
+      "curvesMeshed": 3,
+      "triangles": 2880,
+      "batches": 2,
+      "filaments": 3
+    },
+    "staging-to-production": {
+      "objects": 2,
+      "curvesMeshed": 2,
+      "triangles": 984,
+      "batches": 2,
+      "filaments": 1
+    },
+    "test-to-staging": {
+      "objects": 2,
+      "curvesMeshed": 2,
+      "triangles": 984,
+      "batches": 2,
+      "filaments": 1
+    }
+  },
+  "browserRendered": false,
+  "limits": [
+    "Blender node optics are represented by explicit browser shader parameters; not pixel-identical shader translation.",
+    "Selected v5 browser brain buffers are loaded separately and byte-preserved.",
+    "Exporter records geometry only; browser checks are saved separately."
+  ],
+  "labelGeometry": {
+    "triangles": 24800,
+    "count": 35
+  },
+  "bytes": 1327277,
+  "binaryBytes": 24186664,
+  "totalBytes": 25513941,
+  "sourceUnchanged": true,
+  "brainBufferUnchanged": true,
+  "instances": 63,
+  "brains": 5,
+  "camera": {
+    "lens_mm": 47.0,
+    "sensor_width_mm": 36.0,
+    "render_width": 1600,
+    "render_height": 900,
+    "position": [
+      5.800000190734863,
+      5.400000095367432,
+      22.799999237060547
+    ],
+    "target": [
+      9.5367431640625e-07,
+      1.1000008583068848,
+      0.0
+    ],
+    "quaternion": [
+      -0.08956761658191681,
+      0.12372224032878876,
+      0.011213799938559532,
+      0.9882028102874756
+    ],
+    "up": [
+      -0.04432602971792221,
+      0.9837038516998291,
+      -0.174247145652771
+    ]
+  }
+}

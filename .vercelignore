@@ -1,0 +1,9 @@
+.git/
+.codex/
+blender/
+tests/
+dist/
+assets/blender/
+tools/
+assets/models/enterprise-calibration-v3.js
+assets/models/brain-04-v5-browser-v1.js
