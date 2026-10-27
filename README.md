@@ -30,3 +30,7 @@ Update the model URL in `assets/enterprise-orbits-v12/holograms.js` only after i
 
 Before rebuilding a composition, run `npm run prepare:native`. One large native module is stored as lossless `.blend.gz` to fit GitHub’s file-size limit; the command restores and checks its exact original bytes. Playback and the website build use the included browser export.
 The lossless archive is split into three numbered parts under 60 MB each. `prepare:native` joins them automatically; Git LFS is not required.
+
+## 3D and reading modes
+
+The orbit renderer starts at every viewport width. Reading view is an explicit menu choice (`?view=reading`), not a phone or accessibility fallback. Reduced motion opens the 3D scene paused, with state changes snapped into place; the motion control can resume it. A real WebGL/load failure still exposes the readable story.

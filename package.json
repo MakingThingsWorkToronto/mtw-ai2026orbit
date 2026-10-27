@@ -7,7 +7,7 @@
     "dev": "node scripts/serve.mjs 8795",
     "studio": "node scripts/serve.mjs 8796",
     "build": "node scripts/build.mjs",
-    "test": "node --test tests/assets.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "prepare:native": "node scripts/prepare-native.mjs"
   }
 }

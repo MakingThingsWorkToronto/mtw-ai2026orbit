@@ -4,10 +4,10 @@
   'use strict';
   const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
   const scenes=$$('.story-scene'),menu=$('#scene-menu'),toggle=$('.scene-menu-toggle');
-  const media=matchMedia('(max-width:850px)'),reduced=matchMedia('(prefers-reduced-motion:reduce)');
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)');
   const query=new URLSearchParams(location.search);
-  let reading=query.get('view')==='reading'||media.matches||reduced.matches;
-  let started=false,ready=false,paused=false,active=0,stepHeight=1200,dirty=true;
+  let reading=query.get('view')==='reading';
+  let started=false,ready=false,paused=reduced.matches,active=0,stepHeight=1200,dirty=true;
   let scene,camera,renderer,optics,world,objects,routes,data,labels=[],materials=new Map(),boxes=new Map(),samples=new Map();
   let desiredProgress=0,progress=0,lastFrame=0,elapsed=0,frameCount=0;
   const manual={yaw:0,pitch:0,zoom:1,panX:0,panY:0,panZ:0};
@@ -38,7 +38,7 @@
     index=clamp(index,0,scenes.length-1);closeMenu();
     resetCamera();
     if(reading)scenes[index].scrollIntoView({behavior:'auto',block:'start'});
-    else {stepLock=performance.now()+850;window.scrollTo({top:(index+.55)*stepHeight,behavior:animate?'smooth':'auto'});}
+    else {stepLock=performance.now()+850;window.scrollTo({top:(index+.55)*stepHeight,behavior:animate&&!reduced.matches?'smooth':'auto'});}
     history.replaceState(null,'','#'+scenes[index].id);setSceneText(index);dirty=true;
   }
   for(const a of $$('a[href^="#"]')){
@@ -46,12 +46,12 @@
     if(index>=0)a.addEventListener('click',event=>{event.preventDefault();goTo(index);});
   }
   function setReading(value){
-    reading=Boolean(value||media.matches||reduced.matches);
+    reading=Boolean(value);
     document.body.classList.toggle('immersive',ready&&!reading);
     $('#explanation').hidden=reading||!ready;$('#scene-controls').hidden=reading||!ready;
     $('#scroll-cue').hidden=reading||!ready||active!==0;
     $('#reading-toggle').textContent=reading?'Immersive view':'Reading view';
-    $('#reading-toggle').disabled=media.matches||reduced.matches;
+    $('#reading-toggle').disabled=false;
     $('#load-status').hidden=reading||ready;
     if(ready){resize();if(reading)scenes[active].scrollIntoView({block:'start'});else window.scrollTo(0,(active+.55)*stepHeight);}
     else if(!reading&&!started)start();
@@ -62,11 +62,12 @@
     if(reading)url.searchParams.set('view','reading');else url.searchParams.delete('view');
     history.replaceState(null,'',url);
   });
-  media.addEventListener('change',()=>setReading(media.matches||reduced.matches||query.get('view')==='reading'));
-  reduced.addEventListener('change',()=>setReading(reduced.matches||media.matches));
-  $('#pause-motion').addEventListener('click',()=>{
-    paused=!paused;const b=$('#pause-motion');b.setAttribute('aria-pressed',String(paused));b.setAttribute('aria-label',paused?'Resume motion':'Pause motion');b.title=paused?'Resume motion':'Pause motion';dirty=true;
-  });
+  function setPaused(value){
+    paused=Boolean(value);const b=$('#pause-motion');b.setAttribute('aria-pressed',String(paused));b.setAttribute('aria-label',paused?'Resume motion':'Pause motion');b.title=paused?'Resume motion':'Pause motion';dirty=true;
+  }
+  reduced.addEventListener('change',()=>{if(reduced.matches)setPaused(true);dirty=true;});
+  $('#pause-motion').addEventListener('click',()=>setPaused(!paused));
+  setPaused(paused);
   function resetCamera(){Object.assign(manual,{yaw:0,pitch:0,zoom:1,panX:0,panY:0,panZ:0});dirty=true;}
   function panCamera(dx,dy){
     const right=new THREE.Vector3(1,0,0).applyQuaternion(camera.quaternion);
@@ -280,10 +281,10 @@
     if(paused&&!dirty&&!cameraMoving&&Math.abs(progress-desiredProgress)<.001)return;
     if(!paused)elapsed+=dt;
     orbitObjects(elapsed-orbitEpoch);world.updateMatrixWorld(true);
-    const rate=1-Math.exp(-dt*12);progress+= (desiredProgress-progress)*rate;
+    const rate=reduced.matches?1:1-Math.exp(-dt*12);progress+= (desiredProgress-progress)*rate;
     if(Math.abs(progress-desiredProgress)<.0005)progress=desiredProgress;
     const index=clamp(Math.floor(progress),0,7),local=progress-index;
-    if(index!==revealIndex){revealIndex=index;revealStart=elapsed;}revealAge=elapsed-revealStart;
+    if(index!==revealIndex){revealIndex=index;revealStart=elapsed;}revealAge=reduced.matches?10:elapsed-revealStart;
     if(index!==active)setSceneText(index);
     const pose=cameraPose(index,local);
     currentTarget.lerp(pose.target,rate);currentPosition.lerp(pose.position,rate);
